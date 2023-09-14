@@ -190,20 +190,23 @@ let combine30 = task30.concat(task302)
 console.log(newArray)
 
 let uzd1 = newArray.filter(function(element){
-    return element > 0
+    if(element > 0){
+        return true
+    }
 })
 console.log(uzd1)
 
 
 let uzd2 = newArray.filter(function(element){
-    return element < 0
+    if(element < 0)
+    return true
 })
 console.log(uzd2)
 
 
 let uzd3 = newArray.filter(function(element){
     if(element % 2 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd3)
@@ -211,7 +214,7 @@ console.log(uzd3)
 
 let uzd4 = newArray.filter(function(element){
     if(element % 3 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd4)
@@ -219,7 +222,7 @@ console.log(uzd4)
 
 let uzd5 = newArray.filter(function(element){
     if(element % 5 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd5)
@@ -227,7 +230,7 @@ console.log(uzd5)
 
 let uzd6 = newArray.filter(function(element){
     if(element % 11 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd6)
@@ -235,7 +238,7 @@ console.log(uzd6)
 
 let uzd7 = newArray.filter(function(element){
     if(element % 31 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd7)
@@ -243,7 +246,7 @@ console.log(uzd7)
 
 let uzd8 = newArray.filter(function(element){
     if(element % 2 === 0 && element % 3 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd8)
@@ -251,7 +254,7 @@ console.log(uzd8)
 
 let uzd9 = newArray.filter(function(element){
     if(element % 3 === 0 && element % 7 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd9)
@@ -259,7 +262,7 @@ console.log(uzd9)
 
 let uzd10 = newArray.filter(function(element){
     if(element % 5 === 0 && element % 9 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd10)
@@ -267,7 +270,7 @@ console.log(uzd10)
 
 let uzd11 = newArray.filter(function(element){
     if(element % 5 === 0 && element % 11 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd11)
@@ -275,7 +278,7 @@ console.log(uzd11)
 
 let uzd12 = newArray.filter(function(element){
     if(element % 2 === 0 && element % 8 === 0 && element % 12 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd12)
@@ -283,7 +286,7 @@ console.log(uzd12)
 
 let uzd13 = newArray.filter(function(element){
     if(element % 2 === 0 || element % 3 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd13)
@@ -291,7 +294,7 @@ console.log(uzd13)
 
 let uzd14 = newArray.filter(function(element){
     if(element % 3 === 0 || element % 5 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd14)
@@ -299,7 +302,7 @@ console.log(uzd14)
 
 let uzd15 = newArray.filter(function(element){
     if(element % 5 === 0 || element % 6 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd15)
@@ -307,7 +310,7 @@ console.log(uzd15)
 
 let uzd16 = newArray.filter(function(element){
     if(element % 7 === 0 || element % 8 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd16)
@@ -315,7 +318,7 @@ console.log(uzd16)
 
 let uzd17 = newArray.filter(function(element){
     if(element % 9 === 0 || element % 13 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd17)
@@ -323,7 +326,7 @@ console.log(uzd17)
 
 let uzd18 = newArray.filter(function(element){
     if(element % 2 === 0 && element % 3 === 0 || element % 5 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd18)
@@ -331,7 +334,7 @@ console.log(uzd18)
 
 let uzd19 = newArray.filter(function(element){
     if(element % 5 === 0 && element % 7 === 0 || element % 9 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd19)
@@ -339,7 +342,7 @@ console.log(uzd19)
 
 let uzd20 = newArray.filter(function(element){
     if(element % 7 === 0 && element % 8 === 0 || element % 11 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd20)
@@ -347,7 +350,7 @@ console.log(uzd20)
 
 let uzd21 = newArray.filter(function(element){
     if(element % 9 === 0 && element % 12 === 0 || element % 13 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd21)
@@ -355,7 +358,7 @@ console.log(uzd21)
 
 let uzd22 = newArray.filter(function(element){
     if(element > 100){
-        return element
+        return true
     }
 })
 console.log(uzd22)
@@ -363,7 +366,7 @@ console.log(uzd22)
 
 let uzd23 = newArray.filter(function(element){
     if(element > 555){
-        return element
+        return true
     }
 })
 console.log(uzd23)
@@ -371,7 +374,7 @@ console.log(uzd23)
 
 let uzd24 = newArray.filter(function(element){
     if(element >= 888){
-        return element
+        return true
     }
 })
 console.log(uzd24)
@@ -379,7 +382,7 @@ console.log(uzd24)
 
 let uzd25 = newArray.filter(function(element){
     if(element >= 6789){
-        return element
+        return true
     }
 })
 console.log(uzd25)
@@ -387,33 +390,33 @@ console.log(uzd25)
 
 let uzd26 = newArray.filter(function(element){
     if(element < 50){
-        return element
+        return true
     }
 })
 console.log(uzd26)
 
 
 let uzd27 = newArray.filter(function(element){
-        return element < 1000   
+        return true < 1000   
 })
 console.log(uzd27)
 
 
 let uzd28 = newArray.filter(function(element){
-    return element <= -1   
+    return true <= -1   
 })
 console.log(uzd28)
 
 
 let uzd29 = newArray.filter(function(element){
-    return element <= -5564  
+    return true <= -5564  
 })
 console.log(uzd29)
 
 
 let uzd30 = newArray.filter(function(element){
     if(element < 1000 && element > 500){
-        return element
+        return true
     }
 })
 console.log(uzd30)
@@ -421,7 +424,7 @@ console.log(uzd30)
 
 let uzd31 = newArray.filter(function(element){
     if(element < 100 && element > 0){
-        return element
+        return true
     }
 })
 console.log(uzd31)
@@ -429,7 +432,7 @@ console.log(uzd31)
 
 let uzd32 = newArray.filter(function(element){
     if(element < 0 && element > -50){
-        return element
+        return true
     }
 })
 console.log(uzd32)
@@ -437,7 +440,7 @@ console.log(uzd32)
 
 let uzd33 = newArray.filter(function(element){
     if(element <= 0 && element > -100){
-        return element
+        return true
     }
 })
 console.log(uzd33)
@@ -445,7 +448,7 @@ console.log(uzd33)
 
 let uzd34 = newArray.filter(function(element){
     if(element >= 0 && element < 55){
-        return element
+        return true
     }
 })
 console.log(uzd34)
@@ -453,7 +456,7 @@ console.log(uzd34)
 
 let uzd35 = newArray.filter(function(element){
     if(element >= 444 && element <= 654){
-        return element
+        return true
     }
 })
 console.log(uzd35)
@@ -461,7 +464,7 @@ console.log(uzd35)
 
 let uzd36 = newArray.filter(function(element){
     if(element > 0 && element % 2 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd36)
@@ -469,7 +472,7 @@ console.log(uzd36)
 
 let uzd37 = newArray.filter(function(element){
     if(element > 0 && element % 3 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd37)
@@ -477,7 +480,7 @@ console.log(uzd37)
 
 let uzd38 = newArray.filter(function(element){
     if(element < 0 && element % 4 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd38)
@@ -485,7 +488,7 @@ console.log(uzd38)
 
 let uzd39 = newArray.filter(function(element){
     if(element < 0 && element % 111 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd39)
@@ -493,7 +496,7 @@ console.log(uzd39)
 
 let uzd40 = newArray.filter(function(element){
     if(element > 500 && element % 2 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd40)
@@ -501,7 +504,7 @@ console.log(uzd40)
 
 let uzd41 = newArray.filter(function(element){
     if(element > 1000 && element % 3 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd41)
@@ -509,7 +512,7 @@ console.log(uzd41)
 
 let uzd42 = newArray.filter(function(element){
     if(element < 1000 && element % 9 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd42)
@@ -517,7 +520,7 @@ console.log(uzd42)
 
 let uzd43 = newArray.filter(function(element){
     if(element < 500 && element % 2 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd43)
@@ -525,7 +528,7 @@ console.log(uzd43)
 
 let uzd44 = newArray.filter(function(element){
     if(element >= 33 && element % 3 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd44)
@@ -533,7 +536,7 @@ console.log(uzd44)
 
 let uzd45 = newArray.filter(function(element){
     if(element >= 444 && element % 12 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd45)
@@ -541,7 +544,7 @@ console.log(uzd45)
 
 let uzd46 = newArray.filter(function(element){
     if(element <= 155 && element % 5 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd46)
@@ -549,7 +552,7 @@ console.log(uzd46)
 
 let uzd47 = newArray.filter(function(element){
     if(element <= -333 && element % 9 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd47)
@@ -557,7 +560,7 @@ console.log(uzd47)
 
 let uzd48 = newArray.filter(function(element){
     if(element > 100 && element < 500 && element % 5 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd48)
@@ -565,7 +568,7 @@ console.log(uzd48)
 
 let uzd49 = newArray.filter(function(element){
     if(element >= 888 && element < 1000 && element % 2 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd49)
@@ -573,7 +576,7 @@ console.log(uzd49)
 
 let uzd50 = newArray.filter(function(element){
     if(element <= 888 && element >= -333 && element % 3 === 0 && element !== 0){
-        return element
+        return true
     }
 })
 console.log(uzd50)
@@ -581,7 +584,7 @@ console.log(uzd50)
 
 let uzd51 = newArray.filter(function(element){
     if(typeof element === 'number'){
-        return element
+        return true
     }
 })
 console.log(uzd51)
@@ -589,7 +592,7 @@ console.log(uzd51)
 
 let uzd52 = newArray.filter(function(element){
     if(typeof element === 'string'){
-        return element
+        return true
     }
 })
 console.log(uzd52)
@@ -597,7 +600,7 @@ console.log(uzd52)
 
 let uzd53 = newArray.filter(function(element){
     if(typeof element === 'string' && element.length > 5){
-        return element
+        return true
     }
 })
 console.log(uzd53)
@@ -605,7 +608,7 @@ console.log(uzd53)
 
 let uzd54 = newArray.filter(function(element){
     if(typeof element === 'string' && element.length <= 5){
-        return element
+        return true
     }
 })
 console.log(uzd54)
@@ -613,7 +616,7 @@ console.log(uzd54)
 
 let uzd55 = newArray.filter(function(element){
     if(typeof element === 'string' && element.length < 7){
-        return element
+        return true
     }
 })
 console.log(uzd55)
@@ -621,7 +624,7 @@ console.log(uzd55)
 
 let uzd56 = newArray.filter(function(element){
     if(typeof element === 'string' && element.includes('t')){
-        return element
+        return true
     }
 })
 console.log(uzd56)
@@ -629,14 +632,14 @@ console.log(uzd56)
 
 let uzd57 = newArray.filter(function(element){
     if(typeof element === 'string' && element.includes('y')){
-        return element
+        return true
     }
 })
 console.log(uzd57)
 
 let uzd58 = newArray.filter(function(element){
     if(typeof element === 'string' && (element.includes('a') || element.includes('a'))){
-        return element
+        return true
     }
 })
 console.log(uzd58)
@@ -644,7 +647,7 @@ console.log(uzd58)
 
 let uzd59 = newArray.filter(function(element){
     if(typeof element === 'string' && element.includes('t') && element.includes('i')){
-        return element
+        return true
     }
 })
 console.log(uzd59)
@@ -652,7 +655,7 @@ console.log(uzd59)
 
 let uzd60 = newArray.filter(function(element){
     if(typeof element === 'string' && element.includes('t') && !element.includes('k')){
-        return element
+        return true
     }
 })
 console.log(uzd60)
@@ -660,7 +663,7 @@ console.log(uzd60)
 
 let uzd61 = newArray.filter(function(element){
     if(typeof element === 'string' && element.includes('a') && !element.includes('s')){
-        return element
+        return true
     }
 })
 console.log(uzd61)
@@ -685,7 +688,7 @@ console.log(uzd62)
 
 let uzd63 = newArray.filter(function(element){
     if(typeof element === 'string' && element.includes('st')){
-        return element
+        return true
     }
 })
 console.log(uzd63)
@@ -693,7 +696,7 @@ console.log(uzd63)
 
 let uzd64 = newArray.filter(function(element){
     if(typeof element === 'string' && element.includes('nd')){
-        return element
+        return true
     }
 })
 console.log(uzd64)
@@ -701,7 +704,7 @@ console.log(uzd64)
 
 let uzd65 = newArray.filter(function(element){
     if(typeof element === 'string' && !element.includes('s')){
-        return element
+        return true
     }
 })
 console.log(uzd65)
@@ -709,7 +712,7 @@ console.log(uzd65)
 
 let uzd66 = newArray.filter(function(element){
     if(typeof element === 'string' && !element.includes('t')){
-        return element
+        return true
     }
 })
 console.log(uzd66)
@@ -717,7 +720,7 @@ console.log(uzd66)
 
 let uzd67 = newArray.filter(function(element){
     if(typeof element === 'string' && !element.includes('r') && !element.includes('l')){
-        return element
+        return true
     }
 })
 console.log(uzd67)
@@ -725,7 +728,7 @@ console.log(uzd67)
 
 let uzd68 = newArray.filter(function(element){
     if(typeof element === 'string' && !isNaN(parseInt(element.charAt(0)))){
-        return element
+        return true
     }
 })
 console.log(uzd68)
@@ -733,7 +736,7 @@ console.log(uzd68)
 
 let uzd69 = newArray.filter(function(element){
     if(typeof element === 'string' && element.charAt(0) === 's'){
-        return element
+        return true
     }
 })
 console.log(uzd69)
@@ -741,7 +744,7 @@ console.log(uzd69)
 
 let uzd70 = newArray.filter(function(element){
     if(typeof element === 'string' && element.charAt(0) === 'o'){
-        return element
+        return true
     }
 })
 console.log(uzd70)
@@ -749,7 +752,7 @@ console.log(uzd70)
 
 let uzd71 = newArray.filter(function(element){
     if(typeof element === 'string' && element.endsWith('d')){
-        return element
+        return true
     }
 })
 console.log(uzd71)
@@ -757,7 +760,7 @@ console.log(uzd71)
 
 let uzd72 = newArray.filter(function(element){
     if(typeof element === 'string' && element.endsWith('s')){
-        return element
+        return true
     }
 })
 console.log(uzd72)
@@ -765,7 +768,7 @@ console.log(uzd72)
 
 let uzd73 = newArray.filter(function(element){
     if(typeof element === 'string' && element.length > 4 && element.includes('o')){
-        return element
+        return true
     }
 })
 console.log(uzd73)
@@ -773,7 +776,7 @@ console.log(uzd73)
 
 let uzd74 = newArray.filter(function(element){
     if(typeof element === 'string' && element.length >= 5 && element.includes('a')){
-        return element
+        return true
     }
 })
 console.log(uzd74)
@@ -781,7 +784,7 @@ console.log(uzd74)
 
 let uzd75 = newArray.filter(function(element){
     if(typeof element === 'string' && element.length % 2 === 0){
-        return element
+        return true
     }
 })
 console.log(uzd75)
@@ -789,7 +792,7 @@ console.log(uzd75)
 
 let uzd76 = newArray.filter(function(element){
     if(typeof element === 'string' && !element.length % 2 === 0 && element.includes('s')){
-        return element
+        return true
     }
 })
 console.log(uzd76)
@@ -797,7 +800,7 @@ console.log(uzd76)
 
 let uzd77 = newArray.filter(function(element){
     if(typeof element === 'string' && element.charAt(2) === 'a'){
-        return element
+        return true
     }
 })
 console.log(uzd77)
@@ -805,7 +808,7 @@ console.log(uzd77)
 
 let uzd78 = newArray.filter(function(element){
     if(typeof element === 'string' && element.charAt(3) === 'l'){
-        return element
+        return true
     }
 })
 console.log(uzd78)
@@ -813,7 +816,7 @@ console.log(uzd78)
 
 let uzd79 = newArray.filter(function(element){
     if(typeof element === 'string' && element.charAt(4) !== 't' && element.length > 4){
-        return element
+        return true
     }
 })
 console.log(uzd79)
@@ -821,7 +824,7 @@ console.log(uzd79)
 
 let uzd80 = newArray.filter(function(element){
     if(typeof element === 'string' && element.charAt(3) !== 'e' && element.length < 6 && isNaN(parseInt(element.charAt(0)))){
-        return element
+        return true
     }
 })
 console.log(uzd80)

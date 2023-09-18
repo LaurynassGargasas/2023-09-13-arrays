@@ -187,21 +187,21 @@ let combine30 = task30.concat(task302)
 // console.log(combine30)
 
 
-console.log(newArray)
+// console.log(newArray)
 
 let uzd1 = newArray.filter(function(element){
     if(element > 0){
         return true
     }
 })
-console.log(uzd1)
+// console.log(uzd1)
 
 
 let uzd2 = newArray.filter(function(element){
     if(element < 0)
     return true
 })
-console.log(uzd2)
+// console.log(uzd2)
 
 
 let uzd3 = newArray.filter(function(element){
@@ -209,7 +209,7 @@ let uzd3 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd3)
+// console.log(uzd3)
 
 
 let uzd4 = newArray.filter(function(element){
@@ -217,7 +217,7 @@ let uzd4 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd4)
+// console.log(uzd4)
 
 
 let uzd5 = newArray.filter(function(element){
@@ -225,7 +225,7 @@ let uzd5 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd5)
+// console.log(uzd5)
 
 
 let uzd6 = newArray.filter(function(element){
@@ -233,7 +233,7 @@ let uzd6 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd6)
+// console.log(uzd6)
 
 
 let uzd7 = newArray.filter(function(element){
@@ -241,7 +241,7 @@ let uzd7 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd7)
+// console.log(uzd7)
 
 
 let uzd8 = newArray.filter(function(element){
@@ -249,7 +249,7 @@ let uzd8 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd8)
+// console.log(uzd8)
 
 
 let uzd9 = newArray.filter(function(element){
@@ -257,7 +257,7 @@ let uzd9 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd9)
+// console.log(uzd9)
 
 
 let uzd10 = newArray.filter(function(element){
@@ -265,7 +265,7 @@ let uzd10 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd10)
+// console.log(uzd10)
 
 
 let uzd11 = newArray.filter(function(element){
@@ -273,7 +273,7 @@ let uzd11 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd11)
+// console.log(uzd11)
 
 
 let uzd12 = newArray.filter(function(element){
@@ -281,7 +281,7 @@ let uzd12 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd12)
+// console.log(uzd12)
 
 
 let uzd13 = newArray.filter(function(element){
@@ -289,7 +289,7 @@ let uzd13 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd13)
+// console.log(uzd13)
 
 
 let uzd14 = newArray.filter(function(element){
@@ -297,7 +297,7 @@ let uzd14 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd14)
+// console.log(uzd14)
 
 
 let uzd15 = newArray.filter(function(element){
@@ -305,7 +305,7 @@ let uzd15 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd15)
+// console.log(uzd15)
 
 
 let uzd16 = newArray.filter(function(element){
@@ -313,7 +313,7 @@ let uzd16 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd16)
+// console.log(uzd16)
 
 
 let uzd17 = newArray.filter(function(element){
@@ -321,7 +321,7 @@ let uzd17 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd17)
+// console.log(uzd17)
 
 
 let uzd18 = newArray.filter(function(element){
@@ -329,7 +329,7 @@ let uzd18 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd18)
+// console.log(uzd18)
 
 
 let uzd19 = newArray.filter(function(element){
@@ -337,7 +337,7 @@ let uzd19 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd19)
+// console.log(uzd19)
 
 
 let uzd20 = newArray.filter(function(element){
@@ -345,7 +345,7 @@ let uzd20 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd20)
+// console.log(uzd20)
 
 
 let uzd21 = newArray.filter(function(element){
@@ -353,7 +353,7 @@ let uzd21 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd21)
+// console.log(uzd21)
 
 
 let uzd22 = newArray.filter(function(element){
@@ -361,7 +361,7 @@ let uzd22 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd22)
+// console.log(uzd22)
 
 
 let uzd23 = newArray.filter(function(element){
@@ -369,7 +369,7 @@ let uzd23 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd23)
+// console.log(uzd23)
 
 
 let uzd24 = newArray.filter(function(element){
@@ -377,7 +377,7 @@ let uzd24 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd24)
+// console.log(uzd24)
 
 
 let uzd25 = newArray.filter(function(element){
@@ -385,7 +385,7 @@ let uzd25 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd25)
+// console.log(uzd25)
 
 
 let uzd26 = newArray.filter(function(element){
@@ -393,25 +393,25 @@ let uzd26 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd26)
+// console.log(uzd26)
 
 
 let uzd27 = newArray.filter(function(element){
         return true < 1000   
 })
-console.log(uzd27)
+// console.log(uzd27)
 
 
 let uzd28 = newArray.filter(function(element){
     return true <= -1   
 })
-console.log(uzd28)
+// console.log(uzd28)
 
 
 let uzd29 = newArray.filter(function(element){
     return true <= -5564  
 })
-console.log(uzd29)
+// console.log(uzd29)
 
 
 let uzd30 = newArray.filter(function(element){
@@ -419,7 +419,7 @@ let uzd30 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd30)
+// console.log(uzd30)
 
 
 let uzd31 = newArray.filter(function(element){
@@ -427,7 +427,7 @@ let uzd31 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd31)
+// console.log(uzd31)
 
 
 let uzd32 = newArray.filter(function(element){
@@ -435,7 +435,7 @@ let uzd32 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd32)
+// console.log(uzd32)
 
 
 let uzd33 = newArray.filter(function(element){
@@ -443,7 +443,7 @@ let uzd33 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd33)
+// console.log(uzd33)
 
 
 let uzd34 = newArray.filter(function(element){
@@ -451,7 +451,7 @@ let uzd34 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd34)
+// console.log(uzd34)
 
 
 let uzd35 = newArray.filter(function(element){
@@ -459,7 +459,7 @@ let uzd35 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd35)
+// console.log(uzd35)
 
 
 let uzd36 = newArray.filter(function(element){
@@ -467,7 +467,7 @@ let uzd36 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd36)
+// console.log(uzd36)
 
 
 let uzd37 = newArray.filter(function(element){
@@ -475,7 +475,7 @@ let uzd37 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd37)
+// console.log(uzd37)
 
 
 let uzd38 = newArray.filter(function(element){
@@ -483,7 +483,7 @@ let uzd38 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd38)
+// console.log(uzd38)
 
 
 let uzd39 = newArray.filter(function(element){
@@ -491,7 +491,7 @@ let uzd39 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd39)
+// console.log(uzd39)
 
 
 let uzd40 = newArray.filter(function(element){
@@ -499,7 +499,7 @@ let uzd40 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd40)
+// console.log(uzd40)
 
 
 let uzd41 = newArray.filter(function(element){
@@ -507,7 +507,7 @@ let uzd41 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd41)
+// console.log(uzd41)
 
 
 let uzd42 = newArray.filter(function(element){
@@ -515,7 +515,7 @@ let uzd42 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd42)
+// console.log(uzd42)
 
 
 let uzd43 = newArray.filter(function(element){
@@ -523,7 +523,7 @@ let uzd43 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd43)
+// console.log(uzd43)
 
 
 let uzd44 = newArray.filter(function(element){
@@ -531,7 +531,7 @@ let uzd44 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd44)
+// console.log(uzd44)
 
 
 let uzd45 = newArray.filter(function(element){
@@ -539,7 +539,7 @@ let uzd45 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd45)
+// console.log(uzd45)
 
 
 let uzd46 = newArray.filter(function(element){
@@ -547,7 +547,7 @@ let uzd46 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd46)
+// console.log(uzd46)
 
 
 let uzd47 = newArray.filter(function(element){
@@ -555,7 +555,7 @@ let uzd47 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd47)
+// console.log(uzd47)
 
 
 let uzd48 = newArray.filter(function(element){
@@ -563,7 +563,7 @@ let uzd48 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd48)
+// console.log(uzd48)
 
 
 let uzd49 = newArray.filter(function(element){
@@ -571,7 +571,7 @@ let uzd49 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd49)
+// console.log(uzd49)
 
 
 let uzd50 = newArray.filter(function(element){
@@ -579,7 +579,7 @@ let uzd50 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd50)
+// console.log(uzd50)
 
 
 let uzd51 = newArray.filter(function(element){
@@ -587,7 +587,7 @@ let uzd51 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd51)
+// console.log(uzd51)
 
 
 let uzd52 = newArray.filter(function(element){
@@ -595,7 +595,7 @@ let uzd52 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd52)
+// console.log(uzd52)
 
 
 let uzd53 = newArray.filter(function(element){
@@ -603,7 +603,7 @@ let uzd53 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd53)
+// console.log(uzd53)
 
 
 let uzd54 = newArray.filter(function(element){
@@ -611,7 +611,7 @@ let uzd54 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd54)
+// console.log(uzd54)
 
 
 let uzd55 = newArray.filter(function(element){
@@ -619,7 +619,7 @@ let uzd55 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd55)
+// console.log(uzd55)
 
 
 let uzd56 = newArray.filter(function(element){
@@ -627,7 +627,7 @@ let uzd56 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd56)
+// console.log(uzd56)
 
 
 let uzd57 = newArray.filter(function(element){
@@ -635,14 +635,14 @@ let uzd57 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd57)
+// console.log(uzd57)
 
 let uzd58 = newArray.filter(function(element){
     if(typeof element === 'string' && (element.includes('a') || element.includes('a'))){
         return true
     }
 })
-console.log(uzd58)
+// console.log(uzd58)
 
 
 let uzd59 = newArray.filter(function(element){
@@ -650,7 +650,7 @@ let uzd59 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd59)
+// console.log(uzd59)
 
 
 let uzd60 = newArray.filter(function(element){
@@ -658,7 +658,7 @@ let uzd60 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd60)
+// console.log(uzd60)
 
 
 let uzd61 = newArray.filter(function(element){
@@ -666,7 +666,7 @@ let uzd61 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd61)
+// console.log(uzd61)
 
 
 let uzd62 = newArray.filter(function(element) {
@@ -683,7 +683,7 @@ let uzd62 = newArray.filter(function(element) {
     }
     return false;
 });
-console.log(uzd62)
+// console.log(uzd62)
 
 
 let uzd63 = newArray.filter(function(element){
@@ -691,7 +691,7 @@ let uzd63 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd63)
+// console.log(uzd63)
 
 
 let uzd64 = newArray.filter(function(element){
@@ -699,7 +699,7 @@ let uzd64 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd64)
+// console.log(uzd64)
 
 
 let uzd65 = newArray.filter(function(element){
@@ -707,7 +707,7 @@ let uzd65 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd65)
+// console.log(uzd65)
 
 
 let uzd66 = newArray.filter(function(element){
@@ -715,7 +715,7 @@ let uzd66 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd66)
+// console.log(uzd66)
 
 
 let uzd67 = newArray.filter(function(element){
@@ -723,7 +723,7 @@ let uzd67 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd67)
+// console.log(uzd67)
 
 
 let uzd68 = newArray.filter(function(element){
@@ -731,7 +731,7 @@ let uzd68 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd68)
+// console.log(uzd68)
 
 
 let uzd69 = newArray.filter(function(element){
@@ -739,7 +739,7 @@ let uzd69 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd69)
+// console.log(uzd69)
 
 
 let uzd70 = newArray.filter(function(element){
@@ -747,7 +747,7 @@ let uzd70 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd70)
+// console.log(uzd70)
 
 
 let uzd71 = newArray.filter(function(element){
@@ -755,7 +755,7 @@ let uzd71 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd71)
+// console.log(uzd71)
 
 
 let uzd72 = newArray.filter(function(element){
@@ -763,7 +763,7 @@ let uzd72 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd72)
+// console.log(uzd72)
 
 
 let uzd73 = newArray.filter(function(element){
@@ -771,7 +771,7 @@ let uzd73 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd73)
+// console.log(uzd73)
 
 
 let uzd74 = newArray.filter(function(element){
@@ -779,7 +779,7 @@ let uzd74 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd74)
+// console.log(uzd74)
 
 
 let uzd75 = newArray.filter(function(element){
@@ -787,7 +787,7 @@ let uzd75 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd75)
+// console.log(uzd75)
 
 
 let uzd76 = newArray.filter(function(element){
@@ -795,7 +795,7 @@ let uzd76 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd76)
+// console.log(uzd76)
 
 
 let uzd77 = newArray.filter(function(element){
@@ -803,7 +803,7 @@ let uzd77 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd77)
+// console.log(uzd77)
 
 
 let uzd78 = newArray.filter(function(element){
@@ -811,7 +811,7 @@ let uzd78 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd78)
+// console.log(uzd78)
 
 
 let uzd79 = newArray.filter(function(element){
@@ -819,7 +819,7 @@ let uzd79 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd79)
+// console.log(uzd79)
 
 
 let uzd80 = newArray.filter(function(element){
@@ -827,4 +827,227 @@ let uzd80 = newArray.filter(function(element){
         return true
     }
 })
-console.log(uzd80)
+// console.log(uzd80)
+
+
+
+console.log(newArray)
+
+// for(i = 0; i <= newArray.length; i++){
+//     if(typeof newArray[i] === 'number'){
+//         console.log(newArray[i])
+//     }
+// }
+
+// newArray.forEach(function(element) {
+//     if(typeof element === 'number'){
+//         console.log(element)
+//     }
+// })
+
+
+// for(i = 0; i <= newArray.length; i++){
+//     if(typeof newArray[i] === 'string'){
+//         console.log(newArray[i])
+//     }
+// }
+
+// newArray.map(function(element){
+//     if(typeof element === 'string'){
+//         console.log(element)
+//     }
+// })
+
+
+// for(i = 0; i <= newArray.length; i++){
+//     if(typeof newArray[i] === 'number'){
+//         console.log(Math.pow(newArray[i], 4))
+//     }
+// }
+
+// newArray.forEach(function(element){
+//     if(typeof element === 'number'){
+//         console.log(Math.pow(element, 4))
+//     }
+// })
+
+
+// for(i = 0; i <= newArray.length; i++){
+//     if(typeof newArray[i] === 'number'){
+//         console.log(newArray[i] + 55)
+//     }
+// }
+
+// newArray.map(function(element){
+//     if(typeof element === 'number'){
+//         console.log(element + 55)
+//     }
+// })
+
+
+// for(i = 0; i <= newArray.length; i++){
+//     if(typeof newArray[i] === 'number'){
+//         console.log(newArray[i] / 2)
+//     }
+// }
+
+// newArray.forEach(function(element){
+//     if(typeof element === 'number'){
+//         console.log(element / 2)
+//     }
+// })
+
+
+// for(i = 0; i <= newArray.length; i++){
+//     if(typeof newArray[i] === 'number'){
+//         console.log(`Number: ${newArray[i]}`)
+//     }
+// }
+
+// newArray.map(function(element){
+//     if(typeof element === 'number'){
+//         console.log(`Number: ${element}`)
+//     }
+// })
+
+
+// for(i = 0; i <= newArray.length; i++){
+//     if(typeof newArray[i] === 'number'){
+//         console.log(`Index: ${newArray.indexOf(newArray[i])}, Number: ${newArray[i]}`)
+//     }
+// }
+
+// newArray.forEach(function(element, index){
+//     if(typeof element === 'number'){
+//         console.log(`Index: ${index}, Number: ${element}`)
+//     }
+// })
+
+
+// for(i = 0; i <= newArray.length; i++){
+//     if(typeof newArray[i] === 'number'){
+//         console.log(newArray[i] * newArray.indexOf(newArray[i]))
+//     }
+// }
+
+// newArray.map(function(element, index){
+//     if(typeof element === 'number'){
+//         console.log(element * index)
+//     }
+// })
+
+
+// for(i = 0; i <= newArray.length; i++){
+//     if(typeof newArray[i] === 'number'){
+//         console.log(newArray[i] * newArray[i - 1])
+//     }
+// }
+
+// newArray.forEach(function(element, index){
+//     if(typeof element === 'number'){
+//         console.log(element * newArray[index - 1])
+//     }
+// })
+
+
+// for(i = 0; i <= newArray.length; i++){
+//     if(typeof newArray[i] === 'number' && newArray[i] * 5 > 350){
+//         console.log(newArray[i])
+//     }
+// }
+
+// newArray.map(function(element){
+//     if(typeof element === 'number' && element * 5 > 350){
+//         console.log(element)
+//     }
+// })
+
+
+// for(i = 0; i <= newArray.length; i++){
+//     if(typeof newArray[i] === 'string'){
+//         console.log(`${newArray[i]} has ${newArray[i].length} symbols.`)
+//     }
+// }
+
+// newArray.forEach(function(element, index){
+//     if(typeof element === 'string'){
+//         console.log(`${element} has ${element.length} symbols.`)
+//     }
+// })
+
+
+// for(i = 0; i <= newArray.length; i++){
+//     if(typeof newArray[i] === 'string'){
+//         console.log(newArray[i].split('').join('-').toUpperCase())
+//     }
+// }
+
+// newArray.map(function(element){
+//     if(typeof element === 'string'){
+//         console.log(element.split('').join('-').toUpperCase())
+//     }
+// })
+
+
+// for(i = 0; i <= newArray.length; i++){
+//     let element = newArray[i]
+//     if(typeof newArray[i] === 'string' && element.length >= 3){
+//         element = "_" + element[1] + "_" + element.substring(3)
+//     } console.log(element)
+// }
+
+// newArray.forEach(function(element, index){
+//     if (typeof element === 'string'){
+//         if(element.length >= 3) {
+//             element = '_' + element[1] + '_' + element.substring(3)
+//         }
+//     } console.log(element)
+// })
+
+
+// for (let i = 0; i < newArray.length; i++) {
+//     let element = newArray[i]
+//     if (typeof element === "string") {
+//         let atvirksciasZodis = ""
+//         for (let j = element.length - 1; j >= 0; j--) {
+//             atvirksciasZodis += element[j]
+//         }
+//         console.log(atvirksciasZodis)
+//     }
+// }
+
+// newArray.map(function(element){
+//     if (typeof element === "string") {
+//         let atvirksciasZodis = ""
+//         for (let j = element.length - 1; j >= 0; j--) {
+//             atvirksciasZodis += element[j]
+//         }
+//         console.log(atvirksciasZodis)
+//     } else {
+//         console.log(element)
+//     }
+// })
+
+
+// for (let i = 0; i < newArray.length; i++) {
+//     let element = newArray[i];
+//     if (typeof element === "string") {
+//         let indeksai = [];
+//         for (let j = 0; j < newArray.length; j++) {
+//             if (typeof newArray[j] === "string") {
+//                 indeksai.push(newArray[j]);
+//             }
+//         }
+//         let pradzia = newArray.indexOf(element);
+//         let pabaiga = newArray.lastIndexOf(element);
+//         console.log(`"${element}" is between ${pradzia} and ${pabaiga} in the array.`);
+//     }
+// }
+
+// newArray.forEach(function(element, index, array) {
+//     if (typeof element === "string") {
+//         let pradzia = array.indexOf(element);
+//         let pabaiga = array.lastIndexOf(element);
+//         console.log(`"${element}" is between ${pradzia} and ${pabaiga} in the array.`);
+//     }
+// });
